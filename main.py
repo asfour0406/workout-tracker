@@ -17,7 +17,7 @@ now = datetime.date.today()
 with open("./logs/lastOpened", "w") as f:
     f.write(str(now))
 os.system('clear')
-menuInfo = (f"Last opened : {old}              by Ali Alasfour")
+menuInfo = (f"Last opened : {old}      by Ali Alasfour")
 #printing menu
 
 print(workout,"\n",divider,"\n",menuInfo,"\n",divider)
